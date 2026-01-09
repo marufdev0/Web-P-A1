@@ -61,7 +61,7 @@ nav .nav-menu ul a{
 #hero-banner{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-   
+   background-size: cover;
 
 }
 
@@ -71,12 +71,22 @@ nav .nav-menu ul a{
     
 }
 
+
 .hero-container .hero-early{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.5px;
-    padding-top:130px ;
+    margin-top: 130px;
+    display: inline-flex;
+    padding: 12px 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    gap: 6px;
+    
+
 }
 .hero-container .hero-early  h4{
      color: #30B868;
@@ -101,6 +111,11 @@ nav .nav-menu ul a{
 .hero-container .hero-btn{
     padding-top: 32px;
     padding-bottom: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
 }
 
  .hero-container .color-chang{
@@ -290,10 +305,11 @@ footer{
     padding-top: 16px;
     padding-bottom: 80PX;
 }
-
 .footer-conti hr{
-   color: #FAFAFA;
+    border-top: 1px solid rgba(101, 15, 15, 0.064);
 }
+
+
 .footer-conti p{
     font-size: 13px;
     color: #FAFAFA;
