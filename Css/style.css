@@ -199,8 +199,9 @@ background-color: #FFFFFF;
 
 }
 
+
 .solution-content .content-lists{
-    padding: 40px;
+    padding-top: 40px;
     
     
 }
@@ -210,6 +211,12 @@ background-color: #FFFFFF;
     align-items: center;
     gap:6px;
     
+}
+.solution-container .solution-content h4{
+    color:#627382 ;
+    font-size: 17px;
+    line-height: 35px;
+
 }
 /* solution End */
 
