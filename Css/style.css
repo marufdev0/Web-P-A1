@@ -46,6 +46,9 @@ nav .nav-menu ul a{
     font-weight: 500;
     color: black;
 }
+/* navEnd */
+
+/* hero start */
 
 #hero-banner{
     background: url(../assets/hero-bg.png);
@@ -55,15 +58,49 @@ nav .nav-menu ul a{
 }
 
 .hero-container{
-    padding: 155px 636px;
-    align-items: center;
+    text-align: center;
+    
     
 }
-.hero-container h4{
-    padding: 8px 12px;
-    border: 1px solid red ;
+
+.hero-container .hero-early{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5px;
+    padding-top:130px ;
 }
-/* nav end */
+.hero-container .hero-early  h4{
+     color: #30B868;
+     text-align: center;
+     
+}
+.hero-container h1{
+    color: #FAFAFA;
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+.hero-container span{
+    color: #30B868;
+}
+.hero-container p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
+}
+.hero-container .hero-btn{
+    padding-top: 32px;
+    padding-bottom: 147px;
+}
+
+ .hero-container .color-chang{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
 
 /* note section start */
 #notes{
