@@ -17,6 +17,7 @@ border-radius: 4px;
 color: #FFFFFF;
 font-size: 16px;
 font-weight: 600;
+cursor: pointer;
 }
 /* common css End */
 
@@ -24,6 +25,7 @@ font-weight: 600;
 header{
     padding-top: 16px;
     color: #FFFFFF;
+    
 }
 nav{
     width: 85%;
@@ -44,4 +46,83 @@ nav .nav-menu ul a{
     font-weight: 500;
     color: black;
 }
+
+#hero-banner{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+   
+
+}
+
+.hero-container{
+    padding: 155px 636px;
+    align-items: center;
+    
+}
+.hero-container h4{
+    padding: 8px 12px;
+    border: 1px solid red ;
+}
 /* nav end */
+
+/* note section start */
+#notes{
+text-align: center;
+}
+
+.notes-container{
+    width: 81%;
+    max-width:1350px ;
+    margin: 0 auto;
+    
+}
+
+.notes-container h2{
+    padding-top: 40px;
+    font-style: Bold;
+    font-size: 48px;
+}
+.notes-container p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.notes-container .notes-card{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.card-sec{
+    box-shadow: 0px 0px 8px #627382;
+    margin-top: 30px;
+    padding: 83px 24px 20px 24px;
+    border-radius: 8px;
+
+    
+}
+
+.card-sec .cercale{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.card-sec h1{
+    padding-top: 16px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #001931;
+}
+.card-sec p{
+    padding-top: 16px;
+    font-size: 16px;
+    color: #627382;
+
+}
+
+
+
+/* note section end */
