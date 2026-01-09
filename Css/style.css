@@ -112,17 +112,139 @@ text-align: center;
 
 .card-sec h1{
     padding-top: 16px;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 600;
     color: #001931;
 }
 .card-sec p{
     padding-top: 16px;
-    font-size: 16px;
+    font-size: 14px;
     color: #627382;
+    
 
 }
 
-
-
 /* note section end */
+
+/* solution start */
+#solution{
+background-color: #FFFFFF;
+}
+.solution-container{
+    width: 81%;
+    max-width:1350px ;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-container .solution-content h2{
+    color:#30B868 ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.solution-container .solution-content h1{
+    color:#001931 ;
+    font-size: 46px;
+    font-weight:bold;
+    padding-top: 16px;
+
+}
+.solution-container .solution-content p{
+    color:#627382 ;
+    font-size: 17px;
+    padding-top: 16px;
+    line-height: 20px;
+
+}
+
+.solution-content .content-lists{
+    padding: 40px;
+    
+    
+}
+
+.solution-content .content-lists .list{
+    display: flex;
+    align-items: center;
+    gap:6px;
+    
+}
+/* solution End */
+
+/* Ready Section start */
+#ready{
+    margin-top: 120px;
+}
+.Ready-container{
+    width: 81%;
+    max-width:1350px ;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Ready-container h2{
+    font-size: 40px;
+    font-weight: 700;
+} 
+.Ready-container p{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 16px;
+} 
+.Ready-container button{
+  margin-top: 20px;
+}
+.Ready-container h1{
+  font-size: 16px;
+  color: #627382;
+  padding-top: 16px;
+  padding-bottom: 80PX;
+}
+
+/* Ready Section End */
+
+/* footer start */
+footer{
+    background-color: rgb(1, 39, 55);
+    margin-top:120px;
+}
+.footer-conti{
+    width: 81%;
+    max-width:1350px ;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.footer-img-conte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-img-conte .list h1{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-img-conte .list ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding-top: 16px;
+    padding-bottom: 80PX;
+}
+
+.footer-conti hr{
+   color: #FAFAFA;
+}
+.footer-conti p{
+    font-size: 13px;
+    color: #FAFAFA;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
